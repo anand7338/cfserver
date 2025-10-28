@@ -13,8 +13,12 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = [
-  "https://cf-admin.vercel.app",
+
+// ✅ Middleware
+app.use(
+  cors({
+    origin: [
+       "https://cf-admin.vercel.app",
   "https://cf-user.vercel.app",
   "https://admin.cinemafactory.co.in",
   "https://user.cinemafactory.co.in",
@@ -26,28 +30,48 @@ const allowedOrigins = [
   "https://payphi.com",
   "http://localhost:5173",
   "http://localhost:3000"
-];
-
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      // ✅ Allow server-to-server requests with no Origin (PayPhi callbacks)
-      if (!origin) return callback(null, true);
-
-      if (allowedOrigins.includes(origin)) {
-        console.log(`✅ CORS allowed for: ${origin}`);
-        callback(null, true);
-      } else {
-        console.log(`❌ CORS blocked for: ${origin}`);
-        callback(new Error("CORS policy: Not allowed by origin"));
-      }
-    },
+    ],
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"], // 👈 add PATCH & OPTIONS
     credentials: true,
-     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
+
+// const allowedOrigins = [
+//   "https://cf-admin.vercel.app",
+//   "https://cf-user.vercel.app",
+//   "https://admin.cinemafactory.co.in",
+//   "https://user.cinemafactory.co.in",
+//   "https://www.cinemafactoryacademy.com",
+//   "https://cinemafactoryacademy.com",
+//   "https://cinemafactory.co.in",
+//   "https://www.cinemafactory.co.in",
+//   "https://qa.phicommerce.com",
+//   "https://payphi.com",
+//   "http://localhost:5173",
+//   "http://localhost:3000"
+// ];
+
+// app.use(
+//   cors({
+//     origin: function (origin, callback) {
+//       // ✅ Allow server-to-server requests with no Origin (PayPhi callbacks)
+//       if (!origin) return callback(null, true);
+
+//       if (allowedOrigins.includes(origin)) {
+//         console.log(`✅ CORS allowed for: ${origin}`);
+//         callback(null, true);
+//       } else {
+//         console.log(`❌ CORS blocked for: ${origin}`);
+//         callback(new Error("CORS policy: Not allowed by origin"));
+//       }
+//     },
+//     credentials: true,
+//      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+//     allowedHeaders: ["Content-Type", "Authorization"],
+//   })
+// );
+app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
