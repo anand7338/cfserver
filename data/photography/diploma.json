@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": 1756458675609,
+      "title": "Month 1",
+      "children": [
+        "Fundamentals of Photography",
+        "Portrait Photography"
+      ]
+    },
+    {
+      "id": 1756458719061,
+      "title": "Month 2",
+      "children": [
+        "Modern Photography Techniques",
+        "Photowalk",
+        "Practice of Lighting Techniques",
+        "Event Photography"
+      ]
+    },
+    {
+      "id": 1756458769971,
+      "title": "Month 3",
+      "children": [
+        "Street Photography",
+        "Baby Photography",
+        "Flash Photography",
+        "Photojournalism",
+        "Introduction to Cinematography",
+        "Review and Final Project"
+      ]
+    }
+  ],
+  "pdf": "/uploads/photography/diploma/1756458415765-Photography.pdf"
+}

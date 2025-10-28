@@ -1,0 +1,37 @@
+{
+  "pdf": null,
+  "items": [
+    {
+      "id": 1756530499076,
+      "title": "3D Modeling and Asset Preparation",
+      "children": [
+        "Students start by learning to build the foundational assets needed for virtual production, including",
+        "Hard surface modeling (props, environments, set pieces) using Maya/Blender",
+        "Environment modeling focused on modular, game-ready assets",
+        "Clean topology practices for real-time performance (including LODS and UV unwrapping)",
+        "Best practices for organizing large scenes to be optimized for Unreal Engine workflows",
+        "Export pipeline: Preparing models, materials, and assets for smooth transfer into UE"
+      ]
+    },
+    {
+      "id": 1756530536676,
+      "title": "Texturing and Material Workflow",
+      "children": [
+        "Once modeling fundamentals are in place, students move into texturing using:",
+        "Adobe Substance Painter: Creating PBR (Physically Based Rendering) materials and baking high-to-low details",
+        "Smart material systems, procedural masks, and layered material workflows",
+        "Optimizing texture exports specifically for real-time rendering constraints"
+      ]
+    },
+    {
+      "id": 1756530574150,
+      "title": "Cinematography Sessions:",
+      "children": [
+        "Students study the cinematic aspects of VP and how to translate real-worl cinematography into virtual scenes:",
+        "Understanding real-world camera physics - focal length, aperture, sensor formats, depth of field",
+        "Replicating real lenses and camera setups inside Unreal Engine for cinematic fidelity Learning virtual camera rigs: crane, dolly, handheld, multi-camera setups",
+        "Exploring multi-cam setups and advanced camera language for narrative and commercial work"
+      ]
+    }
+  ]
+}

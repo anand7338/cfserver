@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1756450461335,
+    "title": "Month 1",
+    "pdf": "/uploads/virtualproduction/diploma/1756450461200-Photography.pdf",
+    "image": "/uploads/virtualproduction/diploma/1756462638875-unreal.badf3b146256d871283d.png",
+    "courseTitle": "VIRTUAL PRODUCTION",
+    "timeline": "1 Year",
+    "detailTitle": "(Includes - 6 Months Stage Unreal Internship)",
+    "description": "Stage Unreal is a Virtual production studio based in Chennai. Stage Unreal was founded by Ace and renowned Cinematographer Mr. Manoj Paramahamsa. This one-year program balances equal amounts of practical and theoretical training, complemented by an internship to ensure comprehensive learning and real-world experience.",
+    "link": "/virtual_production/stage_unreal"
+  },
+  {
+    "id": 1756450481658,
+    "title": "Month 2",
+    "pdf": "/uploads/virtualproduction/diploma/1756450481623-Direction.pdf",
+    "image": "/uploads/virtualproduction/diploma/1756462671368-head_logo.png",
+    "courseTitle": "Advanced VIRTUAL PRODUCTION",
+    "timeline": "1 Year Diploma",
+    "detailTitle": "(Includes - Overseas Virtual Production Stage Visit)",
+    "description": "This intensive advanced Unreal Engine - virtual production course is meticulously crafted by a team of specialists and technicians who are not only industry experts but are also actively working on cutting-edge virtual production hollywood projects.",
+    "link": "/virtual_production/cfa"
+  }
+]

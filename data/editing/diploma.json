@@ -1,0 +1,50 @@
+{
+  "months": [
+    {
+      "month": "Month 1",
+      "sections": [
+        {
+          "name": "New Section 2",
+          "items": [
+            {
+              "title": "New Item 1"
+            }
+          ]
+        },
+        {
+          "name": "New Section 2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "month": "Month 2",
+      "sections": []
+    },
+    {
+      "month": "Month 3",
+      "sections": [
+        {
+          "name": "New Section 1",
+          "items": [
+            {
+              "title": "New Item 1"
+            }
+          ]
+        },
+        {
+          "name": "New Section 2",
+          "items": [
+            {
+              "title": "New Item 1"
+            },
+            {
+              "title": "New Item 1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pdf": "/uploads/editing/diploma/1756385763759-Editing.pdf"
+}

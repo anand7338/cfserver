@@ -1,0 +1,44 @@
+{
+  "pdf": null,
+  "items": [
+    {
+      "id": 1756530361090,
+      "title": "Module 1",
+      "children": [
+        "Unreal Fundamentals",
+        "Asset Import Pipeline",
+        "Sequencer Fundamentals"
+      ]
+    },
+    {
+      "id": 1756530387662,
+      "title": "Module 2",
+      "children": [
+        "Materials Fundamentals",
+        "Lighting Fundamentals",
+        "Level Design"
+      ]
+    },
+    {
+      "id": 1756530401881,
+      "title": "Module 3",
+      "children": [
+        "Previsualisation"
+      ]
+    },
+    {
+      "id": 1756530415934,
+      "title": "Module 4",
+      "children": [
+        "Technical-visualisation"
+      ]
+    },
+    {
+      "id": 1756530428549,
+      "title": "Module 5",
+      "children": [
+        "Post-visualization"
+      ]
+    }
+  ]
+}
