@@ -24,6 +24,8 @@ const allowedOrigins = [
   "https://www.cinemafactory.co.in",
   "https://qa.phicommerce.com",
   "https://payphi.com",
+  "http://localhost:5173",
+  "http://localhost:3000"
 ];
 
 app.use(
