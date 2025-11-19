@@ -10,6 +10,7 @@ cloudinary.config({
 
 export default cloudinary;
 
+
 // cloudinary.config({
 //   cloud_name: 'dal5nhow2',
 //   api_key: '366134243799841',
